@@ -5,7 +5,7 @@ export default function BuyFunction({name}) {
         alert(name)
     }
     function handelClick(){
-        setTimeout(showAlert, 2000);
+        // setTimeout(showAlert, 2000);
     }
     return (
         <div>

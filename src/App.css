@@ -171,6 +171,57 @@ body {
     margin: 5px 0;
 }
 
+.buy-action {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    margin-bottom: 10px;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    color: #333;
+}
+
+.counter button {
+    all: unset;
+    width: 40px;
+    height: fit-content;
+    padding: 5px 0;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 0 5px;
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+button.subtraction {
+    text-align: center;
+    color: white;
+    background-color: #309eff;
+}
+
+button.plus {
+    text-align: center;
+    color: white;
+    background-color: #309eff;
+}
+
 .clash-card__unit-stats--barbarian {
     background: #ec9b3b;
 }

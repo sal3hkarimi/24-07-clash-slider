@@ -3,6 +3,12 @@ import Buy from './Buy';
 import CardImage from './CardImage';
 import CardItem from './CardItem';
 import UnitState from './UnitState';
+import BuyAction from './BuyAction';
+
+
+
+
+
 export default function Card({ hero }) {
     return (
         <div className="clash-card barbarian">
@@ -11,6 +17,7 @@ export default function Card({ hero }) {
             <CardItem type={"clash-card__unit-name"} children={`The ${hero.name}`} />
             <CardItem type={"clash-card__unit-description"} children={hero.description} />
             <Buy name={hero.name} />
+            <BuyAction />
             <UnitState units={hero.units} name={hero.name} />
         </div>
         // <!-- end clash-card barbarian-->

@@ -13,7 +13,7 @@ export default class BuyClass extends Component {
         }
         function handelClick() {
 
-            setTimeout( showAlert, 2000);
+            // setTimeout( showAlert, 2000);
         }
         return (
             <div>
